@@ -1,5 +1,7 @@
 # Application Optimization with Webpack
 
+
+## Features
 🚀 splitting dev and prod build  
 🚀 generating HTML based on template  
 🚀 remove old bundles before generating new ones  
@@ -10,3 +12,21 @@
 🚀 conversion of images to webp format  
 🚀 support for older version of browsers using babel  
 🚀 increased browser support with polyfills  
+
+## Install application on local machine
+
+Clone repository and install npm packages
+```zh
+git clone https://github.com/martinsagat/app-optimization
+cd app-optimization
+npm install
+```
+
+Run in development env (http://localhost:9000)
+```zh
+npm run dev
+```
+Build for production
+```zh
+npm run build
+```
