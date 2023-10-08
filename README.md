@@ -1,6 +1,5 @@
 # Application Optimization with Webpack
 
-
 ## Features
 🚀 splitting dev and prod build  
 🚀 generating HTML based on template  
@@ -12,6 +11,10 @@
 🚀 conversion of images to webp format  
 🚀 support for older version of browsers using babel  
 🚀 increased browser support with polyfills  
+
+## Prerequisites
+⚙️ [Git](https://git-scm.com/)  
+⚙️ [Node](https://nodejs.org/en)
 
 ## Install application on local machine
 
@@ -30,3 +33,4 @@ Build for production
 ```zh
 npm run build
 ```
+11
