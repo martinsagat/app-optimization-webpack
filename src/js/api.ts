@@ -1,4 +1,4 @@
-export function getTestImages() {
+export function getTestImages(): Promise<string[]> {
     return new Promise(resolve => {
         setTimeout(() => {
             const mockedResponse = [

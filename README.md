@@ -12,6 +12,7 @@
 🚀 Support for older version of browsers using babel  
 🚀 Increased browser support with polyfills  
 🚀 Cross Env for support of exec commands on Win, Mac & Linux  
+🚀 TypeScript support  
 
 ## Prerequisites
 ⚙️ [Git](https://git-scm.com/)  

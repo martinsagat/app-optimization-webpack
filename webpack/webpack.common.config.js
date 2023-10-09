@@ -9,6 +9,9 @@ const config = {
         path: path.resolve(__dirname, '../dist'),
         // clean: true, // This is not needed because we are using the CleanWebpackPlugin
     },
+    resolve: {
+        extensions: [ '.ts', '.js' ]
+    },
     module: {
         rules: [
             {
@@ -20,7 +23,7 @@ const config = {
                 ]
             },
             {
-                test: /\.js$/,
+                test: /\.(js|ts)$/,
                 exclude: '/node_modules/',
                 use: [
                     {

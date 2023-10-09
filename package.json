@@ -6,6 +6,7 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.prod.config.js",
     "dev": "cross-env NODE_ENV=dev webpack serve --config webpack/webpack.dev.config.js --hot",
+    "typecheck": "tsc --noEmit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +15,7 @@
   "devDependencies": {
     "@babel/core": "^7.23.0",
     "@babel/preset-env": "^7.22.20",
+    "@babel/preset-typescript": "^7.23.0",
     "autoprefixer": "^10.4.16",
     "babel-loader": "^9.1.3",
     "clean-webpack-plugin": "^4.0.0",
@@ -38,6 +40,7 @@
     "sass": "^1.69.0",
     "sass-loader": "^13.3.2",
     "style-loader": "^3.3.3",
+    "typescript": "^5.2.2",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1",
