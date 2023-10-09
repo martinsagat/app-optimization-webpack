@@ -10,8 +10,8 @@
 🚀 Optimization images for production  
 🚀 Conversion of images to webp format  
 🚀 Support for older version of browsers using babel  
-🚀 Increased browser support with polyfills
-🚀 Cross Env for support of exec commands on Win, Mac & Linux
+🚀 Increased browser support with polyfills  
+🚀 Cross Env for support of exec commands on Win, Mac & Linux  
 
 ## Prerequisites
 ⚙️ [Git](https://git-scm.com/)  
