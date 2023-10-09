@@ -12,6 +12,7 @@ module.exports = merge(common, {
         filename: 'js/[name].[contenthash:8].js'
     },
     mode: 'production',
+    devtool: false, // to debug in prod use 'source-map'
     optimization: {
         minimize: true,
         minimizer: [
