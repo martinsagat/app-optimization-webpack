@@ -50,6 +50,9 @@ const config = {
             ],
         })
     ],
+    optimization: {
+        usedExports: true, // tree shaking
+    }
 }
 
 module.exports = config;

@@ -13,7 +13,8 @@
 🚀 Increased browser support with polyfills  
 🚀 Cross Env for support of exec commands on Win, Mac & Linux  
 🚀 TypeScript support  
-🚀 Generating Source Maps for easy debug
+🚀 Generating Source Maps for easy debug  
+🚀 Tree shaking  
 
 ## Prerequisites
 ⚙️ [Git](https://git-scm.com/)  
