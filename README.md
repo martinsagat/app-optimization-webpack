@@ -1,16 +1,17 @@
 # Application Optimization with Webpack
 
 ## Features
-🚀 split build for dev and prod environment  
-🚀 dynamicly generating HTML based on template  
-🚀 remove old bundles before generating new ones  
-🚀 using less preprocessor, sass, PostCSS, CSS in JS  
-🚀 autoprefixer to support for older browsers  
+🚀 Split build for dev and prod environment  
+🚀 Dynamically generate HTML based on template  
+🚀 Remove old bundles before generating new ones  
+🚀 Using less preprocessor, sass, PostCSS, CSS in JS  
+🚀 Autoprefixer to support for older browsers  
 🚀 PurgeCSS to remove unused css styles  
-🚀 optimization images for production  
-🚀 conversion of images to webp format  
-🚀 support for older version of browsers using babel  
-🚀 increased browser support with polyfills  
+🚀 Optimization images for production  
+🚀 Conversion of images to webp format  
+🚀 Support for older version of browsers using babel  
+🚀 Increased browser support with polyfills
+🚀 Cross Env for support of exec commands on Win, Mac & Linux
 
 ## Prerequisites
 ⚙️ [Git](https://git-scm.com/)  
