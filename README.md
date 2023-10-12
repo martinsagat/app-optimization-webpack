@@ -15,6 +15,8 @@
 🚀 TypeScript support  
 🚀 Generating Source Maps for easy debug  
 🚀 Tree shaking  
+🚀 Eslint
+
 
 ## Prerequisites
 ⚙️ [Git](https://git-scm.com/)  
@@ -36,4 +38,21 @@ npm run dev
 Build for production
 ```zh
 npm run build
+```
+
+## More Commands
+
+Check for type errors
+```zh
+npm run typecheck
+```
+
+Check for code format errors 
+```zh
+npm run lint
+```
+
+Fix format errors 
+```zh
+npm run lint:fix
 ```
